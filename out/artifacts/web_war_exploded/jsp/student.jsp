@@ -16,7 +16,7 @@
     <a>请选择您的操作</a><br/>
     <ul>
         <li><a href="${pageContext.request.contextPath}/allHomework">作业提交</a><br/></li>
-        <li><a href="index.jsp">返回</a><br/></li>
+        <li><a href="../index.jsp">返回</a><br/></li>
     </ul>
     <link>
 </div>

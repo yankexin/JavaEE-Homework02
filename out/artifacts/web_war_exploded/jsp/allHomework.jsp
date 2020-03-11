@@ -15,7 +15,7 @@
     <title>作业列表</title>
 </head>
 <body>
-<form id="sub" method="get" action="${pageContext.request.contextPath}/submit">
+<form method="get" action="${pageContext.request.contextPath}/submit">
 <table align="center" width="960" border="1">
     <tr>
         <td>作业编号</td>

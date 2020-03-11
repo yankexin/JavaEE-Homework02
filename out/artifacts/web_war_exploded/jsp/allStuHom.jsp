@@ -12,7 +12,7 @@
     <title>所有学生提交作业</title>
 </head>
 <body>
-table align="center" width="960" border="1">
+<table align="center" width="960" border="1">
 <tr>
     <td>作业编号</td>
     <td>作业标题</td>
@@ -41,6 +41,5 @@ table align="center" width="960" border="1">
 %>
 
 </table>
-
 </body>
 </html>

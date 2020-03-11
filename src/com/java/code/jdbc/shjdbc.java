@@ -40,6 +40,7 @@ public class shjdbc {
                         sh.setHId(resultSet.getLong("h_id"));
                         sh.setTitle(resultSet.getString("h_title"));
                         sh.setHContent(resultSet.getString("h_content"));
+                        sh.setSContent(resultSet.getString("s_content"));
                         sh.setTime(resultSet.getTimestamp("time"));
                         list.add(sh);
                     }
@@ -174,8 +175,8 @@ public class shjdbc {
                 List<stuhom> list = allSH();
                 String id = String.valueOf(list.size()+1);
                 ps.setString(1,id);
-                ps.setLong(2,sh.getHId());
-                ps.setLong(3,sh.getSId());
+                ps.setLong(2,sh.getSId());
+                ps.setLong(3,sh.getHId());
                 ps.setString(4,sh.getTitle());
                 ps.setString(5,sh.getHContent());
                 ps.setString(6,sh.getSContent());
