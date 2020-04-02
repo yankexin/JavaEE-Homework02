@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0" metadata-complete="true">
+    <servlet>
+        <servlet-name>testServletName</servlet-name>
+        <servlet-class>com.java.code.servlet.allHomeworkServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testServletName</servlet-name>
+        <url-pattern>/allHomework</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>submit</servlet-name>
+        <servlet-class>com.java.code.servlet.submit</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>submit</servlet-name>
+        <url-pattern>/submit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>add</servlet-name>
+        <servlet-class>com.java.code.servlet.addHomeworkServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>add</servlet-name>
+        <url-pattern>/addhomework</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addstudent</servlet-name>
+        <servlet-class>com.java.code.servlet.addStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addstudent</servlet-name>
+        <url-pattern>/addstudent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>allsh</servlet-name>
+        <servlet-class>com.java.code.servlet.allStuHomServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allsh</servlet-name>
+        <url-pattern>/allsh</url-pattern>
+    </servlet-mapping>
+
+</web-app>
